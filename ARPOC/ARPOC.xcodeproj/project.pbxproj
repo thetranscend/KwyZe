@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BD13BDC203FD2610050DB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD13BDB203FD2610050DB5D /* AppDelegate.m */; };
+		8BD13BDF203FD2610050DB5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD13BDE203FD2610050DB5D /* ViewController.m */; };
+		8BD13BE2203FD2610050DB5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD13BE0203FD2610050DB5D /* Main.storyboard */; };
+		8BD13BE4203FD2610050DB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD13BE3203FD2610050DB5D /* Assets.xcassets */; };
+		8BD13BE7203FD2610050DB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD13BE5203FD2610050DB5D /* LaunchScreen.storyboard */; };
+		8BD13BEA203FD2610050DB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD13BE9203FD2610050DB5D /* main.m */; };
+		8BD13C0E203FD2F70050DB5D /* InstialScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD13C0D203FD2F70050DB5D /* InstialScreenVC.m */; };
+		8BD13C11203FD3060050DB5D /* LoginScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD13C10203FD3060050DB5D /* LoginScreenVC.m */; };
+		8BD13C14203FD3140050DB5D /* RegistrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD13C13203FD3140050DB5D /* RegistrationVC.m */; };
+		8BD13C17203FD3220050DB5D /* GoogleMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD13C16203FD3220050DB5D /* GoogleMapVC.m */; };
+		8BD13C1A203FD33C0050DB5D /* ARCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD13C19203FD33C0050DB5D /* ARCameraVC.m */; };
+		8BD13C1C203FE8A30050DB5D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD13C1B203FE8A30050DB5D /* CoreLocation.framework */; };
+		C08C65EC2042DEA8008E1A65 /* ARStickers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C08C65EA2042DEA8008E1A65 /* ARStickers.xcdatamodeld */; };
+		C08C65EF2042DFE9008E1A65 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08C65EE2042DFE9008E1A65 /* CoreData.framework */; };
+		C08C65F92042E2E5008E1A65 /* NSDictionary+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = C08C65F82042E2E5008E1A65 /* NSDictionary+Extra.m */; };
+		C08C66042042E696008E1A65 /* ARStickersByLocation+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C08C66022042E696008E1A65 /* ARStickersByLocation+CoreDataClass.m */; };
+		C08C66052042E696008E1A65 /* ARStickersByLocation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C08C66032042E696008E1A65 /* ARStickersByLocation+CoreDataProperties.m */; };
+		C0D57774204194EB00FB711F /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D57773204194EB00FB711F /* ARKit.framework */; };
+		C0D57776204194FC00FB711F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D57775204194FC00FB711F /* SceneKit.framework */; };
+		C0D577782041982D00FB711F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D577772041982D00FB711F /* art.scnassets */; };
+		C0D5777B2041A1C100FB711F /* StickerCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D5777A2041A1C100FB711F /* StickerCollectionCell.m */; };
+		C9F8F691AD6D8753812D4726 /* libPods-ARPOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 602BD737D42A3F0EE0C85272 /* libPods-ARPOC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FEE8BD106A2C375A350513C /* Pods-ARPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARPOC/Pods-ARPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		3B0DB7C7C0B1014C09E1747F /* Pods-ARPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARPOC/Pods-ARPOC.release.xcconfig"; sourceTree = "<group>"; };
+		52A7946CD845A8561E251B59 /* libPods-ARPOCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARPOCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		602BD737D42A3F0EE0C85272 /* libPods-ARPOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARPOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF50887B184764939ED7BFE /* Pods-ARPOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPOCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARPOCTests/Pods-ARPOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77939CC6743A9C94CC582D7C /* libPods-ARPOCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARPOCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD13BD7203FD2610050DB5D /* ARPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD13BDA203FD2610050DB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BD13BDB203FD2610050DB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BD13BDD203FD2610050DB5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BD13BDE203FD2610050DB5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BD13BE1203FD2610050DB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BD13BE3203FD2610050DB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BD13BE6203FD2610050DB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BD13BE8203FD2610050DB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD13BE9203FD2610050DB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BD13BF3203FD2610050DB5D /* ARPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPOCTests.m; sourceTree = "<group>"; };
+		8BD13BF5203FD2610050DB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD13BFE203FD2610050DB5D /* ARPOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPOCUITests.m; sourceTree = "<group>"; };
+		8BD13C00203FD2610050DB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD13C0C203FD2F70050DB5D /* InstialScreenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstialScreenVC.h; sourceTree = "<group>"; };
+		8BD13C0D203FD2F70050DB5D /* InstialScreenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstialScreenVC.m; sourceTree = "<group>"; };
+		8BD13C0F203FD3060050DB5D /* LoginScreenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginScreenVC.h; sourceTree = "<group>"; };
+		8BD13C10203FD3060050DB5D /* LoginScreenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginScreenVC.m; sourceTree = "<group>"; };
+		8BD13C12203FD3140050DB5D /* RegistrationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationVC.h; sourceTree = "<group>"; };
+		8BD13C13203FD3140050DB5D /* RegistrationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationVC.m; sourceTree = "<group>"; };
+		8BD13C15203FD3220050DB5D /* GoogleMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMapVC.h; sourceTree = "<group>"; };
+		8BD13C16203FD3220050DB5D /* GoogleMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleMapVC.m; sourceTree = "<group>"; };
+		8BD13C18203FD33C0050DB5D /* ARCameraVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCameraVC.h; sourceTree = "<group>"; };
+		8BD13C19203FD33C0050DB5D /* ARCameraVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCameraVC.m; sourceTree = "<group>"; };
+		8BD13C1B203FE8A30050DB5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		98AEBD61CCF1B48929AA4CE3 /* Pods-ARPOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPOCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARPOCUITests/Pods-ARPOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C08C65EB2042DEA8008E1A65 /* ARStickers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARStickers.xcdatamodel; sourceTree = "<group>"; };
+		C08C65EE2042DFE9008E1A65 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C08C65F72042E2E5008E1A65 /* NSDictionary+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extra.h"; sourceTree = "<group>"; };
+		C08C65F82042E2E5008E1A65 /* NSDictionary+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extra.m"; sourceTree = "<group>"; };
+		C08C66002042E696008E1A65 /* ARStickersByLocation+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARStickersByLocation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C08C66012042E696008E1A65 /* ARStickersByLocation+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARStickersByLocation+CoreDataClass.h"; sourceTree = "<group>"; };
+		C08C66022042E696008E1A65 /* ARStickersByLocation+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ARStickersByLocation+CoreDataClass.m"; sourceTree = "<group>"; };
+		C08C66032042E696008E1A65 /* ARStickersByLocation+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ARStickersByLocation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C0D57773204194EB00FB711F /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		C0D57775204194FC00FB711F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		C0D577772041982D00FB711F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C0D577792041A1C100FB711F /* StickerCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickerCollectionCell.h; sourceTree = "<group>"; };
+		C0D5777A2041A1C100FB711F /* StickerCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickerCollectionCell.m; sourceTree = "<group>"; };
+		C4B80DCFA3AD24F4A18E331A /* Pods-ARPOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPOCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARPOCUITests/Pods-ARPOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBEE9D07C72BE11ECB89BCDD /* Pods-ARPOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPOCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARPOCTests/Pods-ARPOCTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD13BD4203FD2610050DB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08C65EF2042DFE9008E1A65 /* CoreData.framework in Frameworks */,
+				C0D57776204194FC00FB711F /* SceneKit.framework in Frameworks */,
+				C0D57774204194EB00FB711F /* ARKit.framework in Frameworks */,
+				8BD13C1C203FE8A30050DB5D /* CoreLocation.framework in Frameworks */,
+				C9F8F691AD6D8753812D4726 /* libPods-ARPOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F6F8EC1716F5243459643D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C08C65EE2042DFE9008E1A65 /* CoreData.framework */,
+				C0D57775204194FC00FB711F /* SceneKit.framework */,
+				C0D57773204194EB00FB711F /* ARKit.framework */,
+				8BD13C1B203FE8A30050DB5D /* CoreLocation.framework */,
+				602BD737D42A3F0EE0C85272 /* libPods-ARPOC.a */,
+				52A7946CD845A8561E251B59 /* libPods-ARPOCTests.a */,
+				77939CC6743A9C94CC582D7C /* libPods-ARPOCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B11C2AECABCCF2C3A8C74C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FEE8BD106A2C375A350513C /* Pods-ARPOC.debug.xcconfig */,
+				3B0DB7C7C0B1014C09E1747F /* Pods-ARPOC.release.xcconfig */,
+				6FF50887B184764939ED7BFE /* Pods-ARPOCTests.debug.xcconfig */,
+				FBEE9D07C72BE11ECB89BCDD /* Pods-ARPOCTests.release.xcconfig */,
+				98AEBD61CCF1B48929AA4CE3 /* Pods-ARPOCUITests.debug.xcconfig */,
+				C4B80DCFA3AD24F4A18E331A /* Pods-ARPOCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BD13BCE203FD2610050DB5D = {
+			isa = PBXGroup;
+			children = (
+				8BD13BD9203FD2610050DB5D /* ARPOC */,
+				8BD13BF2203FD2610050DB5D /* ARPOCTests */,
+				8BD13BFD203FD2610050DB5D /* ARPOCUITests */,
+				8BD13BD8203FD2610050DB5D /* Products */,
+				7B11C2AECABCCF2C3A8C74C8 /* Pods */,
+				6F6F8EC1716F5243459643D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD13BD8203FD2610050DB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD13BD7203FD2610050DB5D /* ARPOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BD13BD9203FD2610050DB5D /* ARPOC */ = {
+			isa = PBXGroup;
+			children = (
+				C08C65F62042E2CE008E1A65 /* Extension */,
+				C08C65ED2042DEB3008E1A65 /* CoreData Classes */,
+				C0D577772041982D00FB711F /* art.scnassets */,
+				8BD13BDA203FD2610050DB5D /* AppDelegate.h */,
+				8BD13BDB203FD2610050DB5D /* AppDelegate.m */,
+				8BD13BDD203FD2610050DB5D /* ViewController.h */,
+				8BD13BDE203FD2610050DB5D /* ViewController.m */,
+				8BD13BE0203FD2610050DB5D /* Main.storyboard */,
+				8BD13BE3203FD2610050DB5D /* Assets.xcassets */,
+				8BD13BE5203FD2610050DB5D /* LaunchScreen.storyboard */,
+				8BD13BE8203FD2610050DB5D /* Info.plist */,
+				8BD13BE9203FD2610050DB5D /* main.m */,
+				8BD13C0C203FD2F70050DB5D /* InstialScreenVC.h */,
+				8BD13C0D203FD2F70050DB5D /* InstialScreenVC.m */,
+				8BD13C0F203FD3060050DB5D /* LoginScreenVC.h */,
+				8BD13C10203FD3060050DB5D /* LoginScreenVC.m */,
+				8BD13C12203FD3140050DB5D /* RegistrationVC.h */,
+				8BD13C13203FD3140050DB5D /* RegistrationVC.m */,
+				8BD13C15203FD3220050DB5D /* GoogleMapVC.h */,
+				8BD13C16203FD3220050DB5D /* GoogleMapVC.m */,
+				8BD13C18203FD33C0050DB5D /* ARCameraVC.h */,
+				8BD13C19203FD33C0050DB5D /* ARCameraVC.m */,
+				C0D577792041A1C100FB711F /* StickerCollectionCell.h */,
+				C0D5777A2041A1C100FB711F /* StickerCollectionCell.m */,
+				C08C65EA2042DEA8008E1A65 /* ARStickers.xcdatamodeld */,
+			);
+			path = ARPOC;
+			sourceTree = "<group>";
+		};
+		8BD13BF2203FD2610050DB5D /* ARPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BD13BF3203FD2610050DB5D /* ARPOCTests.m */,
+				8BD13BF5203FD2610050DB5D /* Info.plist */,
+			);
+			path = ARPOCTests;
+			sourceTree = "<group>";
+		};
+		8BD13BFD203FD2610050DB5D /* ARPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BD13BFE203FD2610050DB5D /* ARPOCUITests.m */,
+				8BD13C00203FD2610050DB5D /* Info.plist */,
+			);
+			path = ARPOCUITests;
+			sourceTree = "<group>";
+		};
+		C08C65ED2042DEB3008E1A65 /* CoreData Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C08C66002042E696008E1A65 /* ARStickersByLocation+CoreDataProperties.h */,
+				C08C66012042E696008E1A65 /* ARStickersByLocation+CoreDataClass.h */,
+				C08C66022042E696008E1A65 /* ARStickersByLocation+CoreDataClass.m */,
+				C08C66032042E696008E1A65 /* ARStickersByLocation+CoreDataProperties.m */,
+			);
+			path = "CoreData Classes";
+			sourceTree = "<group>";
+		};
+		C08C65F62042E2CE008E1A65 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C08C65F72042E2E5008E1A65 /* NSDictionary+Extra.h */,
+				C08C65F82042E2E5008E1A65 /* NSDictionary+Extra.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BD13BD6203FD2610050DB5D /* ARPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD13C03203FD2610050DB5D /* Build configuration list for PBXNativeTarget "ARPOC" */;
+			buildPhases = (
+				28D5E6E8685E820BD3677168 /* [CP] Check Pods Manifest.lock */,
+				8BD13BD3203FD2610050DB5D /* Sources */,
+				8BD13BD4203FD2610050DB5D /* Frameworks */,
+				8BD13BD5203FD2610050DB5D /* Resources */,
+				D2AA36ED0CFDB9D8B3E1FE02 /* [CP] Embed Pods Frameworks */,
+				E6836C012F7560E639824058 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARPOC;
+			productName = ARPOC;
+			productReference = 8BD13BD7203FD2610050DB5D /* ARPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BD13BCF203FD2610050DB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mukesh Verma";
+				TargetAttributes = {
+					8BD13BD6203FD2610050DB5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8BD13BD2203FD2610050DB5D /* Build configuration list for PBXProject "ARPOC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BD13BCE203FD2610050DB5D;
+			productRefGroup = 8BD13BD8203FD2610050DB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BD13BD6203FD2610050DB5D /* ARPOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BD13BD5203FD2610050DB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD13BE7203FD2610050DB5D /* LaunchScreen.storyboard in Resources */,
+				C0D577782041982D00FB711F /* art.scnassets in Resources */,
+				8BD13BE4203FD2610050DB5D /* Assets.xcassets in Resources */,
+				8BD13BE2203FD2610050DB5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28D5E6E8685E820BD3677168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2AA36ED0CFDB9D8B3E1FE02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARPOC/Pods-ARPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6836C012F7560E639824058 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARPOC/Pods-ARPOC-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARPOC/Pods-ARPOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD13BD3203FD2610050DB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD13C17203FD3220050DB5D /* GoogleMapVC.m in Sources */,
+				8BD13BDF203FD2610050DB5D /* ViewController.m in Sources */,
+				C08C65EC2042DEA8008E1A65 /* ARStickers.xcdatamodeld in Sources */,
+				8BD13C11203FD3060050DB5D /* LoginScreenVC.m in Sources */,
+				8BD13C0E203FD2F70050DB5D /* InstialScreenVC.m in Sources */,
+				8BD13C1A203FD33C0050DB5D /* ARCameraVC.m in Sources */,
+				C08C66042042E696008E1A65 /* ARStickersByLocation+CoreDataClass.m in Sources */,
+				8BD13C14203FD3140050DB5D /* RegistrationVC.m in Sources */,
+				C08C65F92042E2E5008E1A65 /* NSDictionary+Extra.m in Sources */,
+				8BD13BEA203FD2610050DB5D /* main.m in Sources */,
+				C08C66052042E696008E1A65 /* ARStickersByLocation+CoreDataProperties.m in Sources */,
+				C0D5777B2041A1C100FB711F /* StickerCollectionCell.m in Sources */,
+				8BD13BDC203FD2610050DB5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BD13BE0203FD2610050DB5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD13BE1203FD2610050DB5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BD13BE5203FD2610050DB5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD13BE6203FD2610050DB5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BD13C01203FD2610050DB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BD13C02203FD2610050DB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BD13C04203FD2610050DB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEE8BD106A2C375A350513C /* Pods-ARPOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YVQQ2K649;
+				INFOPLIST_FILE = ARPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hungama.ARPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BD13C05203FD2610050DB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0DB7C7C0B1014C09E1747F /* Pods-ARPOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YVQQ2K649;
+				INFOPLIST_FILE = ARPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hungama.ARPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BD13BD2203FD2610050DB5D /* Build configuration list for PBXProject "ARPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD13C01203FD2610050DB5D /* Debug */,
+				8BD13C02203FD2610050DB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD13C03203FD2610050DB5D /* Build configuration list for PBXNativeTarget "ARPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD13C04203FD2610050DB5D /* Debug */,
+				8BD13C05203FD2610050DB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C08C65EA2042DEA8008E1A65 /* ARStickers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C08C65EB2042DEA8008E1A65 /* ARStickers.xcdatamodel */,
+			);
+			currentVersion = C08C65EB2042DEA8008E1A65 /* ARStickers.xcdatamodel */;
+			path = ARStickers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BD13BCF203FD2610050DB5D /* Project object */;
+}
